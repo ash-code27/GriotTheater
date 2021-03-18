@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color:whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header{
+    display: flex;
+    padding: 5px;
+    background-color: black;
+}
+
+ # Style the topnav links 
+
+  
+.topnav{
+     overflow: hidden;
+     display: block;
+     
+}
+
+nav{
+    background-color:black;
+}
+  
+
+.topnav a{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: black;
+    float: left;
+    
+  }
+
+.show{
+   
+    color:white;
+    background-color: black;
+    margin-top: 10%;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+button{
+    padding: 9px 25px;
+    background-color:red ;
+    border: none;
+    border-radius: 50px;
+}
+
+
+
+
+/*Big Picture  */
+
+.feature-pic{
+    height: 200px;
+    width: auto;
+    object-fit: fill;
+    text-align: center;
+    
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    font-size: 70px;
+    background: none;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+    color: white;
+}
+
+
+
+/* Mid Section */
+
+.grid-container{
+    display: flexbox;
+    
+    flex-direction: column;
+    grid-row-gap:20px
+    
+}
+
+
+
+.img1{
+    width:150px;
+    height: auto;
+    padding: 5px;
+    
+   
+}
+
+.img2{
+    width:150px;
+    height: auto;
+    padding: 5px; 
+    
+}
+
+
+.img3{
+    width:150px;
+    height: auto;
+    padding: 5px;
+    
+}
+
+
+.img4{
+    width:150px;
+    height: auto;
+    padding: 5px;
+    
+}
+
+/* Footer */
+
+/*footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
